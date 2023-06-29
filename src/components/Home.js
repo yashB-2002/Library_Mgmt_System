@@ -1,17 +1,15 @@
 import React, { useContext, useEffect, useState } from "react";
-// import SingleBook from "./SingleBook";
 import { Cart } from "../Context";
 import "../App.css";
 import Filters from "./Filters";
 import SingleBook from "./SingleBook";
 import { Spinner } from "react-bootstrap";
-// import Apitest from "./Apitest";
 const Home = () => {
   const {
     state: { bookscart },
-    bookstate: { byRating, sort, search, titleSort },
+    bookstate: { byRating, sort, search },
   } = useContext(Cart);
-  console.log("home.js", bookscart);
+  // console.log("home.js", bookscart);
 
   const [arr, setArr] = useState([]);
   useEffect(() => {
