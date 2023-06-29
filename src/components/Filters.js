@@ -1,11 +1,10 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import { Button, Form } from "react-bootstrap";
 // import { Rating } from "./Rating";
 import { Cart } from "../Context";
 import { Rating } from "./Rating";
 
 const Filters = () => {
-  // const [rate, setRate] = useState(1);
   const {
     bookstate: { byRating, sort },
     bookdispatch,
