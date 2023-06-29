@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# LIBRARY MANAGEMENT SYSTEM
+## This Web Application is build using Reactjs.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Features of the Web App -
+- Home Section to show all the available books.
+- Pagination Feature.
+- Filter Based Searching.
+- Can add book to Cart.
+- Cart Section to showcase all the books added to cart.
+- User can view detailed description of book.
+- Google like Search filter.
+- Track of all the matched records.
 
-## Available Scripts
+### Screenshots -
 
-In the project directory, you can run:
+**Home Page** 
 
-### `npm start`
+![Home1](https://github.com/yashB-2002/Library_Mgmt_System/assets/86493014/cb3c0293-8716-49e4-a0a5-69edef543e91)
+![Home2](https://github.com/yashB-2002/Library_Mgmt_System/assets/86493014/42a6b45c-c333-4ccf-815c-c493e601e983)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Filter Option By Page Count**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![sort1](https://github.com/yashB-2002/Library_Mgmt_System/assets/86493014/62c6399c-35c5-4d11-a815-5610523d739f)
 
-### `npm test`
+**Filter Option By Rating(Star) Count**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![sort2](https://github.com/yashB-2002/Library_Mgmt_System/assets/86493014/14e7a191-c339-4d02-8082-ddce26d59762)
 
-### `npm run build`
+**Google Like Search Option**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![sort3](https://github.com/yashB-2002/Library_Mgmt_System/assets/86493014/55e34dbc-3d0d-4a10-8ceb-6f43ea98ed1f)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Spinner Animation Effect**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![spinner](https://github.com/yashB-2002/Library_Mgmt_System/assets/86493014/6692c1a3-c245-4764-9f3d-156bbb3caa80)
 
-### `npm run eject`
+**Add to Cart Feature**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![add2cart](https://github.com/yashB-2002/Library_Mgmt_System/assets/86493014/8a4aa876-ae13-4d70-bccb-31ead4a61915)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Cart Page**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![cartpage](https://github.com/yashB-2002/Library_Mgmt_System/assets/86493014/5facf09e-fdf1-4c05-ae17-72a6f6036073)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
