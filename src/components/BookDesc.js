@@ -16,7 +16,7 @@ const BookDesc = () => {
       console.log(bookdata);
     };
     getData();
-  }, [params.id]);
+  }, [params.id, bookdata]);
   return (
     <div className="card_container">
       <div className="image_container">
